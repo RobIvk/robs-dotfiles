@@ -1,0 +1,12 @@
+[mgr]
+show_hidden = true
+
+[open]
+rules = [
+  { mime = "text/html", use = "brave_private" },
+]
+
+[opener]
+brave_private = [
+  { run = 'brave --incognito "$@"', desc = "Brave (Private)", orphan = true }
+]
