@@ -1,0 +1,93 @@
+@import "colors.css";
+
+/* =========================
+   Global
+   ========================= */
+* {
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 12px;
+  min-height: 0;
+}
+
+/* =========================
+   Waybar Window (Glass)
+   ========================= */
+window#waybar {
+  background: @bg;
+  border-radius: 12px;
+  margin: 6px 10px;
+  padding: 2px 6px;
+}
+
+/* =========================
+   Modules – shared spacing
+   ========================= */
+#workspaces,
+#clock,
+#pulseaudio,
+#network,
+#battery {
+  padding: 0 8px;
+  margin: 0 2px;
+}
+
+/* =========================
+   Workspaces
+   ========================= */
+#workspaces button {
+  padding: 0 8px;
+  margin: 0 2px;
+  border-radius: 8px;
+
+  color: @fg;
+  background: transparent;
+}
+
+#workspaces button:hover {
+  background: @hover;
+}
+
+#workspaces button.active {
+  background: @active;
+  color: #ffffff;
+}
+
+#workspaces button.urgent {
+  background: @urgent;
+}
+
+/* =========================
+   Clock
+   ========================= */
+#clock {
+  color: @fg;
+  font-weight: 500;
+}
+
+/* =========================
+   Right-side modules
+   ========================= */
+#pulseaudio,
+#network,
+#battery {
+  color: @fg;
+}
+
+#pulseaudio:hover,
+#network:hover,
+#battery:hover {
+  color: #ffffff;
+}
+
+/* =========================
+   Tooltips
+   ========================= */
+tooltip {
+  background: @tooltip-bg;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+tooltip label {
+  color: @tooltip-fg;
+}
