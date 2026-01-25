@@ -1,0 +1,81 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+    "type": "kitty",
+    "source": "/home/rob/Downloads/images/fastfetch/knight.png",
+    //"width": 10,           
+    //"height": 10,
+    "color": {
+      "1": "#a0a0ff"
+    },
+    "padding": {
+      "top": 0,
+      "left": 0,
+      "right": 4
+    },
+    "printRemaining": true,
+    "position": "left"
+  },
+  "display": {
+    "disableLinewrap": true,
+    "separator": ": ",
+    "brightColor": true
+  },
+  "modules": [
+    {
+      "type": "os",
+      "keyIcon": ""
+    },
+    {
+      "type": "kernel",
+      "keyIcon": ""
+    },
+    {
+      "type": "shell",
+      "keyIcon": ""
+    },
+    {
+      "type": "wm",
+      "keyIcon": ""
+    },
+    {
+      "type": "terminal",
+    },
+    {
+      "type": "break",
+    },
+    {
+      "type": "cpu",
+      "keyIcon": ""
+    },
+    {
+      "type": "gpu",
+      "keyIcon": "󰾲"
+    },
+    {
+      "type": "memory",
+      "keyIcon": ""
+    },
+    {
+      "type": "disk",
+    },
+    {
+      "type": "break",
+    },
+    {
+      "type": "font",
+    },
+    {
+      "type": "terminalfont",
+    },
+    {
+      "type": "display",
+    },
+    {
+      "type": "break",
+    }, 
+    {
+      "type": "colors",
+    }  
+  ]
+}
